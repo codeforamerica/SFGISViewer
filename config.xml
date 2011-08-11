@@ -33,6 +33,8 @@
                    url="http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer"/>
         </basemaps>
         <operationallayers>
+          <layer label="Planning Land Use" type="dynamic" visble="flase" alpha="0.5"
+                  url="http://ec2-50-17-54-8.compute-1.amazonaws.com/ArcGIS/rest/services/planning/planning_landuse/MapServer" />
             <layer label="Demographics" type="tiled" visible="false" alpha="0.5"
                    url="http://server.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Median_Household_Income/MapServer">
                 <sublayer id="1" popupconfig="popups/PopUp_Demographics_BlockGroups.xml"/>
